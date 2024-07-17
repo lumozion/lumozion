@@ -674,6 +674,22 @@ a:focus {
   color: #00bbf0;
 }
 
+.row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social_box{
+  text-align: center;
+  padding: 0 !important;
+  margin: 1em !important;
+}
+
+.social_box>a{
+  width: 100%;
+}
+
 /*team section end*/
 /* client section start */
 .client_section .heading_container {
