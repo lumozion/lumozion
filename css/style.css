@@ -264,6 +264,16 @@ a:focus {
   top: 0;
 }
 
+.nav-text{
+  transition: 100ms ease;
+  border-bottom: 2px solid rgba(1, 1, 1, 0);
+  border-radius: 0;
+}
+
+.nav-text:hover{
+  border-bottom: 2px solid #00bbf0;
+}
+
 /*end header section*/
 /* slider section */
 .slider_section {
@@ -712,6 +722,12 @@ a:focus {
 .social_box>a {
   width: 100%;
 }
+.box{
+  transition:  200ms;
+}
+.box:hover{
+  transform: scale(1.05);
+}
 
 /*team section end*/
 /* client section start */
@@ -968,3 +984,7 @@ a:focus {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+element-class:hover{
+  border-bottom:2px solid white
+}
